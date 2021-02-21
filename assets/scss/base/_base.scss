@@ -1,0 +1,22 @@
+body {
+  letter-spacing: $letter-spacing-lg;
+  cursor: url("../img/icons/cursor.png"), auto;
+  color: $font-color-base;
+  background-color: $ligt;
+}
+
+.border-2 {
+  border-top: 2px solid $ligt;
+  border-bottom: 2px solid $ligt;
+}
+
+// svgs
+.line-pr {
+  width: 2px;
+  height: 250px;
+  left: 50%;
+}
+
+.arrow-svg {
+  width: 60px;
+}

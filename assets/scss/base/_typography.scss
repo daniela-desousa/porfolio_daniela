@@ -1,0 +1,205 @@
+@font-face {
+  font-family: 'Bosch';
+  font-style: normal;
+  src:
+    url('./../../assets/fonts/Bosch.otf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Bifocals';
+  font-style: normal;
+  src:
+    url('./../../assets/fonts/Bifocals.otf') format('truetype'),
+}
+
+@include media-breakpoint-down(sm) {
+  h1, .h1 {
+    font-size: $h1-font-size-sm;
+  }
+
+  h2, .h2 {
+    font-size: $h2-font-size-sm;
+  }
+
+  h3, .h3 {
+    font-size: $h3-font-size-sm;
+  }
+
+  h4, .h4 {
+    font-size: $h4-font-size-sm;
+  }
+
+  h5, .h5 {
+    font-size: $h5-font-size-sm;
+  }
+
+  .display-1 {
+    font-size: $display1-size;
+      @include media-breakpoint-down(md) {
+      font-size: 4rem;
+      }
+  }
+
+  .display-4 {
+    font-size: $display4-size-sm;
+    @include media-breakpoint-down(sm) {
+    font-size: 1.8rem;
+    }
+  }
+
+  .display-5 {
+    @include media-breakpoint-up(sm) {
+    font-size: rem;
+    }
+  }
+}
+
+.lh-100 {
+  line-height: 100;
+}
+
+.font-max {
+  @include media-breakpoint-down(sm) {
+  font-size: 4rem;
+  }
+  @include media-breakpoint-up(sm) {
+  font-size: 7rem;
+  }
+  @include media-breakpoint-up(lg) {
+  font-size: 10rem;
+  }
+}
+
+.display-3 {
+  @include media-breakpoint-down(md) {
+  font-size: 3rem;
+  }
+  @include media-breakpoint-down(sm) {
+  font-size: 2rem;
+  }
+}
+
+.p {
+  font-size: $font-size-base !important;
+  font-weight: $font-weight-base;
+  line-height: $line-height-base;
+  font-family: $font-family-base;
+}
+
+.heading-xxxs {
+  font-size: $font-size-xxxs;
+  font-weight: $headings-font-weight;
+  letter-spacing: $letter-spacing-lg;
+  text-transform: uppercase;
+}
+
+.heading-xxs {
+  font-size: $font-size-xxs;
+  font-weight: $headings-font-weight;
+  letter-spacing: $letter-spacing-lg;
+  text-transform: uppercase;
+}
+
+small {
+  font-weight: inherit;
+}
+
+.strong {
+  font-weight: $font-weight-bold;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.font-size-lg {
+  font-size: $font-size-lg !important;
+}
+
+.font-size-base {
+  font-size: $font-size-base !important;
+}
+
+.font-size-sm {
+  font-size: $font-size-sm !important;
+}
+
+.font-size-xs {
+  font-size: $font-size-xs !important;
+}
+
+.font-size-xxs {
+  font-size: $font-size-xxs !important;
+}
+
+.font-size-xxxs {
+  font-size: $font-size-xxxs !important;
+}
+
+.font-size-h1 {
+  font-size: $h1-font-size !important;
+}
+
+.font-size-h2 {
+  font-size: $h2-font-size !important;
+}
+
+.font-size-h3 {
+  font-size: $h3-font-size !important;
+}
+
+.font-size-h4 {
+  font-size: $h4-font-size !important;
+}
+
+.font-size-h5 {
+  font-size: $h5-font-size !important;
+}
+
+.font-size-h6 {
+  font-size: $h6-font-size !important;
+}
+
+
+// Letter spacing
+.letter-spacing-sm {
+  letter-spacing: $letter-spacing-sm!important;
+}
+
+.letter-spacing-lg {
+  letter-spacing: $letter-spacing-lg !important;
+}
+
+.letter-spacing-xl {
+  letter-spacing: $letter-spacing-xl !important;
+}
+
+.letter-spacing-xxl {
+  letter-spacing: $letter-spacing-xxl !important;
+}
+
+
+a {
+  color: $font-color-base;
+  text-decoration: none;
+  background-color: transparent;
+  &:hover {
+    color: $info;
+    text-decoration: none;
+    cursor: url("../img/icons/eye-cursor.png"), auto;
+}
+}
+
+
+.img-holder__inner {
+  position: relative;
+  z-index: 2;
+}
+
+.font1 {
+  font-family: $font-family-sans-serif;
+}
+
+.font2 {
+  font-family: $headings-font-family;
+}
