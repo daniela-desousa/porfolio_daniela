@@ -9692,7 +9692,7 @@ a {
 .about-svg {
   position: absolute;
   width: 10%;
-  right: 30px;
+  right: 20px;
   -webkit-animation: rotation 10s infinite linear;
           animation: rotation 10s infinite linear; }
   @media (max-width: 767.98px) {
