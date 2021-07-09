@@ -9904,7 +9904,7 @@ a {
   --offset: 20vw;
   --move-initial: calc(-25% + var(--offset));
   --move-final: calc(-50% + var(--offset));
-  --item-font-size: 8vw;
+  --item-font-size: 7vw;
   counter-reset: menu;
   color: #333333 !important; }
 
