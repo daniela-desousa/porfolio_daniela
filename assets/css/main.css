@@ -9692,7 +9692,7 @@ a {
 .about-svg {
   position: absolute;
   width: 10%;
-  right: 30px;
+  right: 20px;
   -webkit-animation: rotation 10s infinite linear;
           animation: rotation 10s infinite linear; }
   @media (max-width: 767.98px) {
@@ -9904,7 +9904,7 @@ a {
   --offset: 20vw;
   --move-initial: calc(-25% + var(--offset));
   --move-final: calc(-50% + var(--offset));
-  --item-font-size: 7vw;
+  --item-font-size: 8vw;
   counter-reset: menu;
   color: #333333 !important; }
 

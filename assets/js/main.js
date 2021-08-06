@@ -55,6 +55,7 @@ listliens[3] = "savon-bio.html";
 listliens[4] = "uhartia-project.html";
 listliens[5] = "la-cabane-perchee.html";
 listliens[6] = "shut-up-twist-again.html";
+listliens[6] = "cbd-shop.html";
 
 
 nb = rand(0, listliens.length - 1);
